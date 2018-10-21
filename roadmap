@@ -1,4 +1,5 @@
-Criar uma rota com o express [ 0K ]
-Pegar todos os repositorios de uma organização [ Ok ]
-Pegar todos os merges no mês em cada repositório
-Dashboard com os colaboradores com pull requests mergiados
+Fazer autenticação para poder ter mais requests. [ OK ]
+Criar uma rota com o express. [ 0K ]
+Pegar todos os repositorios de uma organização. [ OK ]
+Pegar todos os merges no mês em cada repositório.
+Dashboard com os colaboradores com pull requests mergiados.
