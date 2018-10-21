@@ -1,10 +1,13 @@
 import express from "express";
+import getRepos from './github/repos';
 
 const server = express();
 
 
-server.get("/", (_, res) => {
-    res.send(JSON.stringify({'result': 'Github Analyzes'}));
+server.get("/user/:user", (req, res) => {
+    getRepos(req.params.user).then(infos => {
+        res.send(JSON.stringify(infos));
+    });
 });
 
 
