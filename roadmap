@@ -1,5 +1,6 @@
 Fazer autenticação para poder ter mais requests. [ OK ]
 Criar uma rota com o express. [ 0K ]
 Pegar todos os repositorios de uma organização. [ OK ]
-Pegar todos os merges no mês em cada repositório.
+Pegar todos os merges no mês em cada repositório. [ OK ]
+Pegar todas as datas dos pull requests e seprar o usuário que fez o pull requests.
 Dashboard com os colaboradores com pull requests mergiados.
