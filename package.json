@@ -12,7 +12,9 @@
     "url": "git+https://github.com/Pedro-Souza/github-analyzes.git"
   },
   "scripts": {
-    "dev": "nodemon --watch \"src/\" --exec \"ts-node src/app.ts\" -e ts"
+    "dev": "nodemon --watch \"src/\" --exec \"ts-node src/app.ts\" -e ts",
+    "build": "tsc",
+    "prod": "npm run build && node dist/app.js"
   },
   "dependencies": {
     "@types/express": "^4.16.0",
